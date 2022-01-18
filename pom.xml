@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>mrl</groupId>
+  <artifactId>rentals-domain-arch</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>rentals-domain</name>
+  <description>rentals-domain</description>
+  <inceptionYear>2021</inceptionYear>
+  <url>http://orne-dev.github.io/rentals-domain/</url>
+  
+  <properties>
+      <java.version>8</java.version>
+      <maven.compiler.source>1.8</maven.compiler.source>
+      <maven.compiler.target>1.8</maven.compiler.target>
+   </properties>
+
+  <developers>
+  </developers>
+
+
+  <modules>
+    <module>rentals-dto</module>
+    <module>rentals-persistence-api</module>
+    <module>rentals-persistence</module>
+  	<module>rentals-domain</module>
+  	<module>rentals-service</module>
+  </modules>
+  
+  
+</project>
